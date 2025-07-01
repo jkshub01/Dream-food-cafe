@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dream Food Cafe</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: url('https://learnenglishteens.britishcouncil.org/sites/teens/files/field/image/RS9190_GettyImages-1060886308-hig.jpg') no-repeat center center/cover;
+      color: #fff;
+      background-attachment: fixed;
+      backdrop-filter: brightness(0.7);
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    section {
+      background-color: rgba(0, 0, 0, 0.6);
+      margin: 20px;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    h1, h2, h3 {
+      color: #ffcc00;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    pre {
+      font-size: 16px;
+      color: #fff;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+    }
+
+    form input[type="button"] {
+      background-color: #ffcc00;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      margin-top: 20px;
+      color: #ccc;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Dream Food Cafe</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>Welcome to Dream Food Cafe</h2>
+    <p>Your favorite place for delicious food</p>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We serve delicious meals made with love and the finest ingredients.</p>
+  </section>
+
+  <section id="menu">
+    <h2>Our Menu</h2>
+    <h3>Burgers</h3>
+    <ul>
+      <li><pre>Chicken Burger               $15</pre></li>
+      <li><pre>Shami Kabab Burger       $15</pre></li>
+      <li><pre>Chapli Kabab Burger       $17</pre></li>
+      <li><pre>French Burger                  $19</pre></li>
+      <li><pre>Zinger Burger                  $18</pre></li>
+    </ul>
+    <h3>Fries</h3>
+    <ul>
+      <li><pre>French Fries                       $9</pre></li>
+      <li><pre>French Cheese Fries          $10</pre></li>
+      <li><pre>Loaded Fries                     $11</pre></li>
+      <li><pre>Finger Fries                       $8</pre></li>
+    </ul>
+    <h3>Pizza</h3>
+    <ul>
+      <li><pre>Special Dream Pizza        $25</pre></li>
+      <li><pre>BBQ Pizza                        $20</pre></li>
+      <li><pre>Chicken Tikka Pizza         $22</pre></li>
+      <li><pre>Malai Boti Pizza               $23</pre></li>
+      <li><pre>Tandoori Pizza                 $28</pre></li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact With Us</h2>
+    <form>
+      <input type="text" name="name" placeholder="Name" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <input type="button" value="Submit">
+    </form>
+  </section>
+
+  <footer>
+    <p>Follow us: Instagram | Facebook | Twitter</p>
+    <p>Stay connected with us #GOOD FOOD GOOD LIFE</p>
+    <p>&copy; 2025 Dream Food Cafe</p>
+  </footer>
+</body>
+
+</html>
